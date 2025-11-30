@@ -10,5 +10,6 @@
 | Бенедикт Спіноза | Етика| | [link](https://balka-book.com/ua/filosofiya-1496/etika-256430) |
 | Ґрем Гарман | Об’єктно-Орієнтована Онтологія. Нова теорія всього| | [link](https://graba.com.ua/books/obyektno-oriyentovana-ontolohiya-nova-teoriya-vsoho) |
 | 	Зиґмунд Фройд | Тлумачення снів| | [link](https://book-ye.com.ua/nehudozhnja-literatura/gumanitarni-nauki/psykholohiya/tlumachennya-sniv-zarubizhni-avtorski-zibrannya/?utm_source=google&utm_medium=cpc&utm_campaign=21652532532&utm_term=&utm_content=&utm_device=c&utm_network=x&utm_matchtype=&gad_source=1&gad_campaignid=21662807662&gbraid=0AAAAAC1smd5suIxBKFMtUHGg4hb7QFdnj&gclid=CjwKCAiA_orJBhBNEiwABkdmjCQl2pgKmV9DTjKrCM1RZwONVwtvFZOETxrZNaz9Ws7k9aeotVrcoRoCJSUQAvD_BwE) |
+| 	Роберт Сапольські | Біологія поведінки. Причини доброго і поганого в нас| | [link](https://bookks.com.ua/psihologiya-pravo-biznes-ekonomika/biologiya-povedinky?gclid=CjwKCAiA86_JBhAIEiwA4i9Ju90SSfjEhmC1kRKiuZ9nsIseVNUhvKdabXQq_X6eyd8Q_h_CdlNYCBoCcZkQAvD_BwE) |
 
 Add a short note when someone nominates the book so we know why it's on the list.
