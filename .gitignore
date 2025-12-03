@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pre-commit-cache/
+.pre-commit-log/
+.python-version
+.uv/
+.uv-cache/
+.husky/_/
+
+# Editors and OS noise
+.DS_Store
+.idea/
+.vscode/
+
+# initial project files
+pyproject.toml
+uv.lock
+main.py
