@@ -24,5 +24,8 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+# initial project files
 pyproject.toml
 uv.lock
+main.py
