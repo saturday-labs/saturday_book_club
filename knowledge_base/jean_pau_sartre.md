@@ -56,6 +56,7 @@ AND (
 )
 SORT name ASC
 ```
+
 ---
 
 ## Book Club Notes

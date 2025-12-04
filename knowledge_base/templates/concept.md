@@ -13,12 +13,14 @@ updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
 # <% tp.file.title %>
 
 ## Essence
+
 A short, precise definition of the concept.  
 1–3 sentences capturing the core idea.
 
 ---
 
 ## Explanation
+
 Your understanding in your own words.  
 Brief but meaningful, ideally 1–2 paragraphs.
 
@@ -29,6 +31,7 @@ Explain how and where this idea appears, why it matters, and how it fits into th
 ---
 
 ## Detailed Breakdown
+
 Use bullet points for clarity:
 
 - Underlying assumptions  
@@ -39,6 +42,7 @@ Use bullet points for clarity:
 ---
 
 ## Criticism
+
 - Common objections  
 - Weaknesses in reasoning  
 - Rival interpretations  

@@ -14,22 +14,27 @@ The structure here is intentionally **flat** — all notes live in a single laye
 Use the following templates when creating new notes:
 
 ### `author.md`
+
 For philosophers and key thinkers.  
 Includes metadata, major works, movements, and Dataview tables.
 
 ### `movement.md`
+
 For philosophical schools or traditions.  
 Captures principles, historical context, key authors, and linked works.
 
 ### `book.md`
+
 For philosophical works.  
 Summaries, key ideas, quotes, discussion notes, and Dataview references.
 
 ### `concept.md`
+
 The core of the system — atomic ideas.  
 Contains definitions, explanations, context, criticism, and links to authors/movements/books.
 
 ### `period.md`
+
 For historical eras.  
 Includes timeframe, intellectual characteristics, authors, movements, and Dataview listings.
 

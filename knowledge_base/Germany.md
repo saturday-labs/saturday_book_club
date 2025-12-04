@@ -18,4 +18,3 @@ WHERE type = "author"
 AND country.file.name = this.file.name
 SORT name ASC
 ```
-

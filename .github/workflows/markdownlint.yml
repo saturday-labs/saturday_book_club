@@ -1,0 +1,19 @@
+name: markdownlint
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install markdownlint-cli
+        run: npm install markdownlint-cli@0.46.0
+      - name: Run markdownlint
+        run: npx markdownlint-cli --config .markdownlint.yaml --ignore-path .markdownlintignore knowledge_base/**/*.md
