@@ -1,13 +1,16 @@
 ---
+title: <% tp.file.title %>
+authors: []
+books: []
+movements: []
+periods: [] 
 type: concept
-title: "{{title}}"
-author: ""
-book: ""
-movement: ""
-tags: ["philosophy", "concept"]
+tags: ["concept"]
+created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
+updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
 ---
 
-# {{title}}
+# <% tp.file.title %>
 
 ## Essence
 A short, precise definition of the concept.  
@@ -20,11 +23,6 @@ Your understanding in your own words.
 Brief but meaningful, ideally 1–2 paragraphs.
 
 ---
-
-## Context
-- **Author:** [[ ]]  
-- **Book:** [[ ]]  
-- **Movement:** [[ ]]
 
 Explain how and where this idea appears, why it matters, and how it fits into the broader system of the author or tradition.
 
@@ -48,30 +46,8 @@ Use bullet points for clarity:
 
 ---
 
-## Connections
-### Related Concepts
-- [[ ]]  
-- [[ ]]  
-- [[ ]]
-
-### Related Authors
-- [[ ]]
-
-### Related Movements
-- [[ ]]
-
----
-
 ## Practical Use / Real-Life Reflection
+
 Where does this idea appear in real life?  
 Why is it relevant today?  
 How does it influence thinking, behavior, or worldview?
-
----
-
-# 📊 Dataview: Other Notes Linked to This Concept
-```dataview
-LIST FROM "knowledge_base"
-WHERE contains(text, this.title)
-SORT file.name ASC
-```

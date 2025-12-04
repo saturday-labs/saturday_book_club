@@ -1,31 +1,23 @@
 ---
-type: movement
-name: "{{title}}"
-period: ""
+name: <% tp.file.title %>
+period: []
 origin: ""
+concepts: []
+founders: []
 key_authors: []
 key_works: []
-tags: ["philosophy", "movement"]
+type: movement
+tags: ["movement"]
+created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
+updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
 ---
 
-# {{title}}
-
-## Overview
-- **Period:**  
-- **Origin / Location:**  
-- **Founders:**  
-  - [[ ]]  
-  - [[ ]]
-- **Key representatives:**  
-  - [[ ]]  
-  - [[ ]]
-- **Major works:**  
-  - [[ ]]  
-  - [[ ]]
+# <% tp.file.title %>
 
 ---
 
 ## Core Principles
+
 Summarize the essential ideas of this philosophical movement:
 
 -  
@@ -35,6 +27,7 @@ Summarize the essential ideas of this philosophical movement:
 ---
 
 ## Historical Context
+
 Explain *why* this movement appeared at this particular time:
 
 - Cultural and intellectual background  
@@ -44,6 +37,7 @@ Explain *why* this movement appeared at this particular time:
 ---
 
 ## Influence & Legacy
+
 - How this movement shaped later philosophy  
 - Movements or authors influenced by it  
 - Modern relevance  
@@ -51,28 +45,31 @@ Explain *why* this movement appeared at this particular time:
 ---
 
 ## Criticism
+
 - Common objections  
 - Weak points or unresolved contradictions  
 - Counter-movements or rival schools  
 
 ---
 
-## Related Movements
-- [[ ]]  
-- [[ ]]
+## Related Concepts
+
+```dataview 
+TABLE name AS "Movement", period AS "Period"
+FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(concepts, this.file.name)
+SORT name ASC
+```
 
 ---
 
-## Related Authors
-- [[ ]]  
-- [[ ]]
+## Works Related to This Movement
 
----
-
-# 📊 Dataview: Works Related to This Movement
 ```dataview
 TABLE title AS "Title", author AS "Author", year AS "Year"
 FROM "knowledge_base/books"
-WHERE movement = this.name
+WHERE type = "book"
+AND contains(movements, this.file.name)
 SORT year ASC
 ```
