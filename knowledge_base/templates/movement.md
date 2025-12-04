@@ -54,7 +54,7 @@ Explain *why* this movement appeared at this particular time:
 
 ## Related Concepts
 
-```dataview 
+```dataview
 TABLE name AS "Movement", period AS "Period"
 FROM "knowledge_base"
 WHERE type = "movement"

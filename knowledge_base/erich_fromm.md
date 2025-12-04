@@ -32,7 +32,10 @@ rating: 1
 
 ## Short Description
 
-Erich Fromm was a German-American social psychologist, philosopher, and representative of humanistic psychoanalysis. He combined a psychoanalytic approach with sociology, ethics, and critical theory of society. Fromm explored the nature of human freedom, mechanisms of escape from it, the structure of character, and the root causes of social alienation. His works focused on the search for an authentic, "vibrant" life, which is opposed to the materialistic state of "being".
+Erich Fromm was a German-American social psychologist, philosopher, and representative of humanistic psychoanalysis.
+He combined a psychoanalytic approach with sociology, ethics, and critical theory of society.
+Fromm explored the nature of human freedom, mechanisms of escape from it, the structure of character, and the root causes of social alienation.
+His works focused on the search for an authentic, "vibrant" life, which is opposed to the materialistic state of "being".
 
 ---
 
@@ -65,6 +68,7 @@ AND (
 )
 SORT name ASC
 ```
+
 ---
 
 ## Book Club Notes
