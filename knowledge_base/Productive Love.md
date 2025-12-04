@@ -1,16 +1,17 @@
 ---
-title: <% tp.file.title %>
+title: Productive Love
 authors: []
 books: []
 movements: []
-periods: [] 
+periods: []
 type: concept
-tags: ["concept"]
-created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
-updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
+tags:
+  - concept
+created: 04/12/2025 19:21:30
+updated: 04/12/2025 19:21:30
 ---
 
-# <% tp.file.title %>
+# Productive Love
 
 ## Essence
 A short, precise definition of the concept.  

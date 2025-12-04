@@ -1,19 +1,22 @@
 ---
-title: <% tp.file.title %>
-author: []
-year:
+title: Nausea
+author:
+  - "[[Jean-Paul Sartre]]"
+year: "1938"
 concepts: []
-movements: []
-period: []
+movements:
+  - "[[Existentialism]]"
+period:
+  - "[[early 20th century]]"
 status: to-read
 type: book
 tags:
   - book
-created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
-updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
+created: 04/12/2025 19:21:30
+updated: 04/12/2025 19:21:30
 ---
 
-# <% tp.file.title %>
+# Nausea
 
 ---
 

@@ -1,19 +1,20 @@
 ---
-title: <% tp.file.title %>
+title: To Have or To Be?
 author: []
-year:
+year: "1976"
 concepts: []
 movements: []
-period: []
+period:
+  - "[[middle 20th century]]"
 status: to-read
 type: book
 tags:
   - book
-created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
-updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
+created: 04/12/2025 19:21:30
+updated: 04/12/2025 19:21:30
 ---
 
-# <% tp.file.title %>
+# To Have or To Be? (1976)
 
 ---
 

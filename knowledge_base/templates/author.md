@@ -1,42 +1,32 @@
 ---
-type: author
-name: "{{title}}"
+name: <% tp.file.title %>
 period: ""
 country: ""
+nationality: ""
+birth: null
+death: null
+concepts: []
 movements: []
 key_works: []
-tags: ["philosophy", "author"]
+type: author
+tags: ["author"]
+created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
+updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
+rating: 1   # 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 ---
 
-# {{title}}
-
-## Overview
-- **Period:**  
-- **Country:**  
-- **Philosophical movements:**  
-  - [[ ]]  
-  - [[ ]]
-- **Major works:**  
-  - [[ ]]  
-  - [[ ]]
+# <% tp.file.title %>
 
 ---
 
 ## Short Description
+
 A concise summary of the thinker: style, interests, intellectual focus, and why they matter.
 
 ---
 
-## Core Ideas
-List major concepts linked to this author:
-
-- [[ ]]  
-- [[ ]]  
-- [[ ]]
-
----
-
 ## Context & Influence
+
 - Historical background shaping the author’s ideas  
 - Impact on later thinkers and movements  
 - Schools or debates influenced by their work  
@@ -44,6 +34,7 @@ List major concepts linked to this author:
 ---
 
 ## Criticism
+
 - Common objections or weak points  
 - Internal contradictions  
 - How other schools interpret or challenge this author  
@@ -51,25 +42,24 @@ List major concepts linked to this author:
 ---
 
 ## Related Authors
-- [[ ]]  
-- [[ ]]
 
+```dataview
+TABLE name AS "Author", period AS "Period"
+FROM "knowledge_base"
+WHERE type = "author"
+AND (
+    contains(movements, this.file.movements)
+    OR contains(concepts, this.file.concepts)
+    OR period = this.file.period
+)
+SORT name ASC
+```
 ---
 
 ## Book Club Notes
+
 Use this section to capture remarks from discussions:
 
 -  
 -  
 -  
-
----
-
-# 📊 Dataview: Works by this Author
-
-```dataview
-TABLE title AS "Title", year AS "Year", movement AS "Movement"
-FROM "knowledge_base/books"
-WHERE contains(author, this.name)
-SORT year ASC
-```

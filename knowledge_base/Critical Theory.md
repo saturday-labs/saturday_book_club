@@ -1,5 +1,5 @@
 ---
-name: <% tp.file.title %>
+name: Critical Theory
 period: []
 origin: ""
 concepts: []
@@ -7,12 +7,13 @@ founders: []
 key_authors: []
 key_works: []
 type: movement
-tags: ["movement"]
-created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
-updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
+tags:
+  - movement
+created: 04/12/2025 19:21:30
+updated: 04/12/2025 19:21:30
 ---
 
-# <% tp.file.title %>
+# Critical Theory
 
 ---
 

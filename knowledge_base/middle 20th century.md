@@ -1,29 +1,23 @@
 ---
-type: period
-name: "{{title}}"
-start: ""
-end: ""
-region: ""
+name: middle 20th century
+start:
+end:
+major_concepts: []
 major_movements: []
 major_authors: []
-tags: ["philosophy", "period"]
+type: period
+tags:
+  - period
+created: 04/12/2025 19:21:30
+updated: 04/12/2025 19:21:30
 ---
 
-# {{title}}
-
-## Overview
-- **Timeframe:**  
-- **Region / Cultural context:**  
-- **Key philosophical movements:**  
-  - [[ ]]  
-  - [[ ]]
-- **Major authors:**  
-  - [[ ]]  
-  - [[ ]]
+# middle 20th century
 
 ---
 
 ## Historical Context
+
 Explain the social, political, scientific, and cultural forces that shaped this era:
 
 -  
@@ -33,6 +27,7 @@ Explain the social, political, scientific, and cultural forces that shaped this 
 ---
 
 ## Intellectual Characteristics
+
 What defines the thinking of this period?
 
 - Core themes  
@@ -42,25 +37,8 @@ What defines the thinking of this period?
 
 ---
 
-## Major Movements
-List the important philosophical schools that emerged or developed:
-
-- [[ ]]  
-- [[ ]]  
-
-Add brief notes when helpful.
-
----
-
-## Major Authors
-Key thinkers who shaped the era:
-
-- [[ ]]  
-- [[ ]]  
-
----
-
 ## Influence & Legacy
+
 How this era shaped later philosophy:
 
 - Long-term intellectual impacts  
@@ -70,27 +48,18 @@ How this era shaped later philosophy:
 ---
 
 ## Criticism or Limitations
+
 - Weak points of the era’s worldview  
 - Internal contradictions  
 - Critiques from later philosophers  
 
 ---
 
-# 📌 Connections
-### Related Works
-- [[ ]]
+## Related Movements
 
-### Related Concepts
-- [[ ]]
-
-### Related Movements
-- [[ ]]
-
----
-
-# 📊 Dataview: Related Movements
 ```dataview
-LIST FROM "knowledge_base/movements"
+LIST FROM "knowledge_base"
 WHERE period = this.name
+and type = "movement"
 SORT file.name ASC
 ```

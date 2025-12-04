@@ -50,11 +50,9 @@ To keep all book notes synchronized and easy to browse, we use Obsidian as our p
 
 #### How We Use Obsidian
 
-- All book notes, chapter summaries, and meeting agendas are edited directly in Obsidian.
+- All book notes, chapter, summaries etc. are edited directly in Obsidian.
 - Use the built‑in preview mode to read markdown comfortably.
-- Use the **Templates plugin**:
-  - For meetings, copy the structure from `meetings/template.md`.
-  - For book notes, start from `notes/templates/book-notes-template.md`.
+- Use the [**Templater plugin**](https://silentvoid13.github.io/Templater/introduction.html)
 - Linking between notes (`[[Book Title]]`) is encouraged to make it easier to navigate what we've discussed.
 - All changes sync through GitHub—Obsidian works only as an editor/interface.
 
