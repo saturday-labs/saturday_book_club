@@ -1,21 +1,21 @@
 ---
 name: Erich Fromm
-period: "[[middle 20th century]]"
-country: "[[Germany]]"
+period: "[[middle_20th_century]]"
+country: "[[germany]]"
 nationality: German
 birth: "1900"
 death: "1980"
 concepts:
-  - "[[Having vs Being]]"
-  - "[[Escape from Freedom]]"
-  - "[[Productive Love]]"
-  - "[[Social Character]]"
+  - "[[having_vs_being]]"
+  - "[[escape_from_freedom]]"
+  - "[[productive_love]]"
+  - "[[social_character]]"
 movements:
-  - "[[Neo-Freudianism]]"
-  - "[[Critical Theory]]"
-  - "[[Humanism]]"
+  - "[[neo_freudianism]]"
+  - "[[critical_theory]]"
+  - "[[humanism]]"
 key_works:
-  - "[[To Have or To Be?]]"
+  - "[[to_have_or_to_be]]"
 type: author
 tags:
   - author

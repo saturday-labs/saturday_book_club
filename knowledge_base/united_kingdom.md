@@ -1,12 +1,13 @@
 ---
-name: <% tp.file.title %>
+name: United Kingdom
 type: country
-tags: ["country"]
-created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
-updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
+tags:
+  - country
+created: 09/12/2025 13:12:59
+updated: 09/12/2025 13:12:59
 ---
 
-# <% tp.file.title %>
+# united_kingdom
 
 ---
 

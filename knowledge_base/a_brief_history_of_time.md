@@ -1,21 +1,19 @@
 ---
-title: To Have or To Be?
-author:
-  - "[[erich_fromm]]"
-year: "1976"
+title: a_brief_history_of_time
+author: [[stephen_hawking]]
+year:
 concepts: []
 movements: []
-period:
-  - "[[middle_20th_century]]"
+period: []
 status: to-read
 type: book
 tags:
   - book
-created: 04/12/2025 19:21:30
-updated: 04/12/2025 19:21:30
+created: 09/12/2025 13:25:55
+updated: 09/12/2025 13:25:55
 ---
 
-# To Have or To Be? (1976)
+# a_brief_history_of_time
 
 ---
 
