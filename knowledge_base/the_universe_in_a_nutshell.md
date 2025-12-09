@@ -1,6 +1,6 @@
 ---
 title: the_universe_in_a_nutshell
-author: []
+author: [[stephen_hawking]]
 year:
 concepts: []
 movements: []
