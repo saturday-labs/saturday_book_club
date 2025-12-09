@@ -1,7 +1,7 @@
 ---
 title: Nausea
 author:
-  - "[[jean_pau_sartre]]"
+  - "[[jean_paul_sartre]]"
 year: "1938"
 concepts: []
 movements:
