@@ -11,9 +11,9 @@ updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
 ---
 
 ```dataview
-TABLE name AS "Author", period AS "Period"
+TABLE name AS "Author", period AS "Period", key_works as "Books"
 FROM "knowledge_base"
-WHERE contains(tags, "author") 
-AND country = this.file.name
+WHERE type = "author"
+AND country.file.name = this.file.name
 SORT name ASC
 ```
