@@ -1,6 +1,6 @@
 ---
 title: the_theory_of_everything
-author: []
+author: [[stephen_hawking]]
 year:
 concepts: []
 movements: []
