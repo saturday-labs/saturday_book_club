@@ -1,11 +1,12 @@
 ---
 title: To Have or To Be?
-author: []
+author:
+  - "[[erich_fromm]]"
 year: "1976"
 concepts: []
 movements: []
 period:
-  - "[[middle 20th century]]"
+  - "[[middle_20th_century]]"
 status: to-read
 type: book
 tags:

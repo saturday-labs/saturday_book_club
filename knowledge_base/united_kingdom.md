@@ -1,16 +1,15 @@
 ---
-name: France
+name: United Kingdom
+type: country
 tags:
   - country
-creation date: 04/12/2025 19:21:30
-modification date: 04/12/2025 19:21:30
+created: 09/12/2025 13:12:59
+updated: 09/12/2025 13:12:59
 ---
 
-# France
+# united_kingdom
 
 ---
-
-## Related authors
 
 ```dataview
 TABLE name AS "Author", period AS "Period", key_works as "Books"

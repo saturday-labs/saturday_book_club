@@ -1,22 +1,19 @@
 ---
-title: Nausea
-author:
-  - "[[jean_pau_sartre]]"
-year: "1938"
+title: the_theory_of_everything
+author: []
+year:
 concepts: []
-movements:
-  - "[[existentialism]]"
-period:
-  - "[[early_20th_century]]"
-status: done
+movements: []
+period: []
+status: to-read
 type: book
 tags:
   - book
-created: 04/12/2025 19:21:30
-updated: 04/12/2025 19:21:30
+created: 09/12/2025 13:26:08
+updated: 09/12/2025 13:26:08
 ---
 
-# Nausea
+# the_theory_of_everything
 
 ---
 
