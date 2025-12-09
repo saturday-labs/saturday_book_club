@@ -1,6 +1,6 @@
 ---
 title: a_brief_history_of_time
-author: []
+author: [[stephen_hawking]]
 year:
 concepts: []
 movements: []
