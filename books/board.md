@@ -4,16 +4,18 @@ kanban-plugin: board
 
 ---
 
-## 
+## TO DO
 
 
 
-## 
+## In progress
+
+- [ ] **Stephen Hawking** *theory of Everything*
 
 
+## DONE
 
-## 
-
+**Complete**
 - [ ] **Jean-Paul Sartre** _Nausea_
 - [ ] **Erich Fromm** _To Have or to Be?_ 1976
 
