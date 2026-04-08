@@ -13,6 +13,16 @@ Set up the tooling before contributing changes:
 
 This keeps everyone on the same dependency versions and guarantees the formatting / lint hooks match what CI expects.
 
+## Contribution Rules
+
+Before opening a pull request, follow the repository conventions for:
+
+- branch names;
+- commit messages;
+- pull request titles.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for exact formats, regex, and examples aligned with our GitHub Actions checks.
+
 ## Folder Map
 
 - `books/` — track everything we're reading via `board.md` and `backlog.md`.
