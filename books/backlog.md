@@ -31,5 +31,5 @@
 | Франческо Петрарка           | Про незнання власне й багатьох інших          |                        | [link](https://balka-book.com/ua/filosofiya-1496/pro_neznannya_vlasne_y_bagatoh_inshih-229951)|
 | Ханна Арендт            | Банальність зла. Ейхман у Єрусалимі          |                        | [link](https://knms.site/banalnist-zla.-eikhman-u-yerusalymi/?gad_source=1&gad_campaignid=21841879659&gbraid=0AAAAA-DzD8n2Ivhuc3G0W-PfTAAKanKai&gclid=CjwKCAjwqubPBhBOEiwAzgZX2lMqykgh_S7SinWwm77a1wO-N0IlXzlYFhlQmWsT0aGNMxEqgGLfsxoC6agQAvD_BwE)|
 | Айзек Азімов            | Фундація          |                        | [link](https://www.yakaboo.ua/ua/fundacija.html?srsltid=AfmBOorut1Z6_n9n2ZQb7YYWYr0wJZUqJf2RZQ7CYHV97zTscFIkOZSD)|
-
-
+| Стокоу Меттью            | Корови. Красиве життя|    мєрзость                    | [link](https://knms.site/korovy.-krasyve-zhyttia/?gad_source=1&gad_campaignid=21595173021&gbraid=0AAAAA-DzD8nvkTPLl8-SLOSx-kup9ZkGX&gclid=CjwKCAjwxITRBhBYEiwA6mZm7dpA4gJ4fscd423Bn3WQ_JDaVHW2xEOLHWxV4q1SJO8phvc9mjHQGBoCjqQQAvD_BwE)|
+| Дуглас Адамс            | Автостопом по галактиці|    42                    | [link](https://balka-book.com/ua/vsemirnaya_literatura-1977/putivnik_po_galaktitsi_dlya_kosmoturistiv_roman_mal_form-162510?utm_source=google&utm_medium=cpc&utm_campaign=fnx_pmax_hudoshka&utm_content=&utm_term=&gad_source=1&gad_campaignid=21250647738&gbraid=0AAAAADKmp7AMp6FyFg0S2nfziSUwCiq9c&gclid=CjwKCAjwxITRBhBYEiwA6mZm7RFQ-8TlgBj1kNaJLmowZipjwinoKkYu9_H1HFIuyU0YnCpGWZzykxoC2XEQAvD_BwE)|
