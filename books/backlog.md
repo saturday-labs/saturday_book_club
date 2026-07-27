@@ -33,3 +33,4 @@
 | Айзек Азімов            | Фундація          |                        | [link](https://www.yakaboo.ua/ua/fundacija.html?srsltid=AfmBOorut1Z6_n9n2ZQb7YYWYr0wJZUqJf2RZQ7CYHV97zTscFIkOZSD)|
 | Стокоу Меттью            | Корови. Красиве життя|    мєрзость                    | [link](https://knms.site/korovy.-krasyve-zhyttia)|
 | Дуглас Адамс            | Автостопом по галактиці|    42                    | [link](https://balka-book.com/ua/vsemirnaya_literatura-1977/putivnik_po_galaktitsi_dlya_kosmoturistiv_roman_mal_form-162510)|
+| Джон Апдайк            | Біжи, Кролику|    Межі часу дії роману "Кролик, біжи" - це межі подолання страху. Глобального, метафізичного                   | [link](https://balka-book.com/klassicheskaya-proza-2609/bzhi-kroliku-311735)|
