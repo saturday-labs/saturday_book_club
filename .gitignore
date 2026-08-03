@@ -29,3 +29,9 @@ venv/
 pyproject.toml
 uv.lock
 main.py
+
+# Quartz site build
+site/node_modules
+site/public
+site/.quartz-cache
+site/tsconfig.tsbuildinfo

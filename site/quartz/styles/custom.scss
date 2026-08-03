@@ -1,0 +1,14 @@
+@use "./variables.scss" as *;
+
+// note-properties-tags is display:inline-flex with no wrap inside a
+// table cell that has word-break:break-word — with many tags, chips
+// overflow and get broken mid-word instead of wrapping as whole units.
+.note-properties-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+
+  .tag-link {
+    white-space: nowrap;
+  }
+}
