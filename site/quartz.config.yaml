@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: null
   locale: en-US
-  baseUrl: stunning-broccoli-9mjl37m.pages.github.io
+  baseUrl: saturday-labs.github.io/saturday_book_club
   ignorePatterns:
     - private
   theme:
@@ -119,7 +119,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
