@@ -1,5 +1,5 @@
 ---
-title: AIBI Knowledge Vault
+title: Saturday Book Club
 description: Saturday Book Club notes
 ---
 
