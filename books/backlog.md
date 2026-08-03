@@ -31,5 +31,6 @@
 | Франческо Петрарка           | Про незнання власне й багатьох інших          |                        | [link](https://balka-book.com/ua/filosofiya-1496/pro_neznannya_vlasne_y_bagatoh_inshih-229951)|
 | Ханна Арендт            | Банальність зла. Ейхман у Єрусалимі          |                        | [link](https://knms.site/banalnist-zla.-eikhman-u-yerusalymi/?gad_source=1&gad_campaignid=21841879659&gbraid=0AAAAA-DzD8n2Ivhuc3G0W-PfTAAKanKai&gclid=CjwKCAjwqubPBhBOEiwAzgZX2lMqykgh_S7SinWwm77a1wO-N0IlXzlYFhlQmWsT0aGNMxEqgGLfsxoC6agQAvD_BwE)|
 | Айзек Азімов            | Фундація          |                        | [link](https://www.yakaboo.ua/ua/fundacija.html?srsltid=AfmBOorut1Z6_n9n2ZQb7YYWYr0wJZUqJf2RZQ7CYHV97zTscFIkOZSD)|
-
-
+| Стокоу Меттью            | Корови. Красиве життя|    мєрзость                    | [link](https://knms.site/korovy.-krasyve-zhyttia)|
+| Дуглас Адамс            | Автостопом по галактиці|    42                    | [link](https://balka-book.com/ua/vsemirnaya_literatura-1977/putivnik_po_galaktitsi_dlya_kosmoturistiv_roman_mal_form-162510)|
+| Джон Апдайк            | Біжи, Кролику|    Межі часу дії роману "Кролик, біжи" - це межі подолання страху. Глобального, метафізичного                   | [link](https://balka-book.com/klassicheskaya-proza-2609/bzhi-kroliku-311735)|
