@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: AIBI Knowledge Vault
+  pageTitle: Saturday Book Club
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -200,8 +200,7 @@ plugins:
   - source: "@quartz-community/footer"
     enabled: true
     options:
-      links:
-        Slack: https://app.slack.com/client/T03JD99F9/C0AFR5R2JDV
+      links: {}
     layout:
       position: footer
       priority: 50
