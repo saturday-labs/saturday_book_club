@@ -1,16 +1,15 @@
 ---
-name: Critical Theory
-period: []
-origin: ""
+origin: ''
 concepts: []
-founders: []
-key_authors: []
-key_works: []
 type: movement
 tags:
-  - movement
+- movement
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
+authors:
+- '[[erich_fromm]]'
+title: Critical Theory
+periods: []
 ---
 
 # Critical Theory
@@ -52,16 +51,6 @@ Explain *why* this movement appeared at this particular time:
 - Counter-movements or rival schools  
 
 ---
-
-## Related Concepts
-
-```dataview
-TABLE name AS "Movement", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "movement"
-AND contains(concepts, this.file.name)
-SORT name ASC
-```
 
 ---
 

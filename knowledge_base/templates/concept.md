@@ -1,9 +1,7 @@
 ---
 title: <% tp.file.title %>
 authors: []
-books: []
-movements: []
-periods: [] 
+periods: []
 type: concept
 tags: ["concept"]
 created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
@@ -55,3 +53,13 @@ Use bullet points for clarity:
 Where does this idea appear in real life?  
 Why is it relevant today?  
 How does it influence thinking, behavior, or worldview?
+
+## Related Movements
+
+```dataview
+TABLE title AS "Movement", periods AS "Period"
+FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(concepts, this.file.name)
+SORT title ASC
+```

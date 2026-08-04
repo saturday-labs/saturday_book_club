@@ -1,18 +1,18 @@
 ---
 title: To Have or To Be?
-author:
-  - "[[erich_fromm]]"
-year: "1976"
+year: '1976'
 concepts: []
 movements: []
-period:
-  - "[[middle_20th_century]]"
 status: to-read
 type: book
 tags:
-  - book
+- book
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
+authors:
+- '[[erich_fromm]]'
+periods:
+- '[[middle_20th_century]]'
 ---
 
 # To Have or To Be? (1976)

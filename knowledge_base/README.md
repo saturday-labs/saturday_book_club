@@ -7,7 +7,7 @@ The structure here is intentionally **flat** — all notes live in a single laye
 
 - Every file should be an **atomic note** about an author, movement, concept, book, or period.
 - Notes should be created **only using templates** from `templates/` to keep metadata consistent across the vault.
-- Files should be named clearly (e.g., `kant.md`, `stoicism.md`, `will-to-power.md`) so the graph remains readable.
+- Files should be named clearly (e.g., `kant.md`, `stoicism.md`, `will_to_power.md`) so the graph remains readable.
 
 ## Templates
 
@@ -37,6 +37,28 @@ Contains definitions, explanations, context, criticism, and links to authors/mov
 
 For historical eras.  
 Includes timeframe, intellectual characteristics, authors, movements, and Dataview listings.
+
+## Relationship Schema
+
+**Rule: every relationship is stored on exactly one side.** The other side
+gets it through an inverse Dataview query (`WHERE type = "X" AND
+contains(field, this.file.name)`) — the same pattern `country.md` and
+`book.movements` → "Works Related to This Movement" already use correctly.
+No relationship is ever hand-maintained on both ends.
+
+| Relationship | Owner | Field (on owner) | Dropped from other side |
+| --- | --- | --- | --- |
+| author ↔ book | **book** | `authors[]` | `author.key_works[]` |
+| author ↔ concept | **concept** | `authors[]` (unchanged) | `author.concepts[]` |
+| author ↔ movement | **movement** | `authors[]` (merges `founders`+`key_authors`) | `author.movements[]` |
+| author ↔ period | **author** | `periods[]` | `period.major_authors[]` |
+| author ↔ country | **author** | `countries[]` (was singular `country`) | — (country already stored nothing) |
+| book ↔ concept | **book** | `concepts[]` (unchanged) | `concept.books[]` |
+| book ↔ movement | **book** | `movements[]` (unchanged) | `movement.key_works[]` |
+| book ↔ period | **book** | `periods[]` (was singular `period`) | — |
+| movement ↔ concept | **movement** | `concepts[]` (unchanged) | `concept.movements[]` |
+| movement ↔ period | **movement** | `periods[]` (was singular `period`) | `period.major_movements[]` |
+| concept ↔ period | **concept** | `periods[]` (unchanged) | `period.major_concepts[]` |
 
 ## Why This Matters
 

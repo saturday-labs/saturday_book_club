@@ -1,10 +1,10 @@
 ---
 title: <% tp.file.title %>
-author: []
+authors: []
 year:
 concepts: []
 movements: []
-period: []
+periods: []
 status: to-read
 type: book
 tags:

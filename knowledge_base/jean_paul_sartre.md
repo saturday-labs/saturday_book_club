@@ -1,22 +1,17 @@
 ---
-name: Jean-Paul Sartre
-period: "[[early_20th_century]]"
-country: "[[france]]"
 nationality: French
-birth: "1905"
-death: "1980"
-concepts:
-  - "[[existence_precedes_essence]]"
-movements:
-  - "[[existentialism]]"
-key_works:
-  - "[[nausea]]"
+birth: '1905'
+death: '1980'
 type: author
 tags:
-  - author
+- author
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
-rating: 1
+title: Jean-Paul Sartre
+periods:
+- '[[early_20th_century]]'
+countries:
+- '[[france]]'
 ---
 
 # Jean-Paul Sartre

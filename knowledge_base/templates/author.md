@@ -1,18 +1,14 @@
 ---
-name: <% tp.file.title %>
-period: ""
-country: ""
+title: <% tp.file.title %>
+periods: []
+countries: []
 nationality: ""
 birth: null
 death: null
-concepts: []
-movements: []
-key_works: []
 type: author
 tags: ["author"]
 created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
 updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
-rating: 1   # 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 ---
 
 # <% tp.file.title %>

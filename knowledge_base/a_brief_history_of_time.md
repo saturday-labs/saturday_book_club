@@ -1,16 +1,17 @@
 ---
 title: a_brief_history_of_time
-author: [[stephen_hawking]]
-year:
+year: null
 concepts: []
 movements: []
-period: []
 status: to-read
 type: book
 tags:
-  - book
+- book
 created: 09/12/2025 13:25:55
 updated: 09/12/2025 13:25:55
+authors:
+- stephen_hawking
+periods: []
 ---
 
 # a_brief_history_of_time

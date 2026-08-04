@@ -1,15 +1,12 @@
 ---
-name: middle 20th century
-start:
-end:
-major_concepts: []
-major_movements: []
-major_authors: []
+start: null
+end: null
 type: period
 tags:
-  - period
+- period
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
+title: middle 20th century
 ---
 
 # middle 20th century

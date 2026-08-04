@@ -1,10 +1,10 @@
 ---
-name: United Kingdom
 type: country
 tags:
-  - country
+- country
 created: 09/12/2025 13:12:59
 updated: 09/12/2025 13:12:59
+title: United Kingdom
 ---
 
 # united_kingdom

@@ -1,12 +1,11 @@
 ---
 title: Social Character
-authors: []
-books: []
-movements: []
+authors:
+- '[[erich_fromm]]'
 periods: []
 type: concept
 tags:
-  - concept
+- concept
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
 ---
@@ -56,3 +55,13 @@ Use bullet points for clarity:
 Where does this idea appear in real life?  
 Why is it relevant today?  
 How does it influence thinking, behavior, or worldview?
+
+## Related Movements
+
+```dataview
+TABLE title AS "Movement", periods AS "Period"
+FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(concepts, this.file.name)
+SORT title ASC
+```

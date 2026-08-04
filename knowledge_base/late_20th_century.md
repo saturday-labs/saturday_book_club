@@ -1,15 +1,12 @@
 ---
-name: late_20th_century
-start:
-end:
-major_concepts: []
-major_movements: []
-major_authors: []
+start: null
+end: null
 type: period
 tags:
-  - period
+- period
 created: 09/12/2025 13:11:31
 updated: 09/12/2025 13:11:31
+title: late_20th_century
 ---
 
 # late_20th_century

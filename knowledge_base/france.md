@@ -1,15 +1,16 @@
 ---
-name: Germany
-type: country
 tags:
-  - country
-created: 04/12/2025 19:21:30
-updated: 04/12/2025 19:21:30
+- country
+creation date: 04/12/2025 19:21:30
+modification date: 04/12/2025 19:21:30
+title: France
 ---
 
-# Germany
+# France
 
 ---
+
+## Related authors
 
 ```dataview
 TABLE name AS "Author", period AS "Period", key_works as "Books"

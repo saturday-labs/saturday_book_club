@@ -1,17 +1,12 @@
 ---
 title: general_relativity
 authors:
-  - "[[stephen_hawking]]"
-books:
-  - "[[the_theory_of_everything]]"
-movements:
-  - "[[cosmology]]"
-  - "[[theoretical_physics]]"
+- '[[stephen_hawking]]'
 periods:
-  - "[[late_20th_century]]"
+- '[[late_20th_century]]'
 type: concept
 tags:
-  - concept
+- concept
 created: 08/04/2026 12:24:42
 updated: 08/04/2026 12:24:42
 ---
@@ -53,3 +48,13 @@ A geometric theory of gravity in which mass-energy curves spacetime and curved s
 ## Practical Use / Real-Life Reflection
 
 ...
+
+## Related Movements
+
+```dataview
+TABLE title AS "Movement", periods AS "Period"
+FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(concepts, this.file.name)
+SORT title ASC
+```

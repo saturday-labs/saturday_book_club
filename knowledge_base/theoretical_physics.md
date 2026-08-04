@@ -1,16 +1,18 @@
 ---
-name: theoretical_physics
-period: []
-origin: ""
-concepts: []
-founders: []
-key_authors: []
-key_works: []
+origin: ''
+concepts:
+- '[[quantum_mechanics]]'
+- '[[general_relativity]]'
+- '[[arrow_of_time]]'
 type: movement
 tags:
-  - movement
+- movement
 created: 09/12/2025 13:25:29
 updated: 09/12/2025 13:25:29
+authors:
+- '[[stephen_hawking]]'
+title: theoretical_physics
+periods: []
 ---
 
 # theoretical_physics
@@ -52,16 +54,6 @@ Explain *why* this movement appeared at this particular time:
 - Counter-movements or rival schools  
 
 ---
-
-## Related Concepts
-
-```dataview
-TABLE name AS "Movement", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "movement"
-AND contains(concepts, this.file.name)
-SORT name ASC
-```
 
 ---
 

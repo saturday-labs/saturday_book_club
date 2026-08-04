@@ -1,11 +1,9 @@
 ---
-name: <% tp.file.title %>
-period: []
+title: <% tp.file.title %>
+periods: []
 origin: ""
 concepts: []
-founders: []
-key_authors: []
-key_works: []
+authors: []
 type: movement
 tags: ["movement"]
 created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
@@ -52,23 +50,11 @@ Explain *why* this movement appeared at this particular time:
 
 ---
 
-## Related Concepts
-
-```dataview
-TABLE name AS "Movement", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "movement"
-AND contains(concepts, this.file.name)
-SORT name ASC
-```
-
----
-
 ## Works Related to This Movement
 
 ```dataview
-TABLE title AS "Title", author AS "Author", year AS "Year"
-FROM "knowledge_base/books"
+TABLE title AS "Title", authors AS "Author", year AS "Year"
+FROM "knowledge_base"
 WHERE type = "book"
 AND contains(movements, this.file.name)
 SORT year ASC
