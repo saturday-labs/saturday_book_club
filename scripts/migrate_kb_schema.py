@@ -5,7 +5,7 @@ docs/superpowers/specs/2026-08-04-knowledge-base-schema-design.md.
 Pure transform: migrate_notes(). CLI wrapper below does real file I/O and
 the 5 git-tracked renames; run it with --dry-run first (see Task 4)."""
 
-from kb_lib import merge_links, normalize_links
+from kb_lib import link_target, merge_links, normalize_links
 
 
 def migrate_notes(notes: dict) -> dict:
@@ -22,8 +22,6 @@ def migrate_notes(notes: dict) -> dict:
     def targets_of_type(stem: str, field: str, wanted_type: str) -> list[str]:
         out = []
         for link in get_links(stem, field):
-            from kb_lib import link_target
-
             target = link_target(link)
             if target in result and result[target].get("type") == wanted_type:
                 out.append(target)

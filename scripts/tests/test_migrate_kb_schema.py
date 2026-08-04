@@ -106,3 +106,75 @@ def test_country_note_unchanged_besides_title():
     notes = {"france": {"type": "country", "name": "France"}}
     result = migrate_notes(notes)
     assert result["france"] == {"type": "country", "title": "France"}
+
+
+# --- Additional ordering-regression tests -----------------------------------
+#
+# test_book_author_rename_merges_with_reverse_added_author (above) is the only
+# one of the brief's 9 tests that both (a) uses two different dict key
+# orderings and (b) asserts exact list equality (not set equality) on a
+# dual-owned field. That combination is exactly what's needed to catch a
+# regression of the merge_links-argument-order bug fixed in this file (own
+# field must be merge_links's base argument, accumulated reverse-merge value
+# must be the incoming argument -- swapping them makes output order depend on
+# note-processing order, even though no data is lost either way). The other
+# three dual-owned fields (movement.authors, author.periods,
+# movement.periods) weren't covered by an equivalent test. These three fill
+# that gap, mirroring the book/author test's structure exactly.
+
+
+def test_movement_authors_rename_merges_with_reverse_added_author_both_orders():
+    # movement.authors (owner-side merge of founders+key_authors) and
+    # author.movements (loser-side reverse-merge) both write into
+    # movement.authors. Neither may overwrite the other, regardless of which
+    # note is processed first.
+    notes_a = {
+        "existentialism": {"type": "movement", "founders": ["[[sartre]]"]},
+        "camus": {"type": "author", "movements": ["[[existentialism]]"]},
+    }
+    notes_b = {
+        "camus": {"type": "author", "movements": ["[[existentialism]]"]},
+        "existentialism": {"type": "movement", "founders": ["[[sartre]]"]},
+    }
+    result_a = migrate_notes(notes_a)
+    result_b = migrate_notes(notes_b)
+    assert result_a["existentialism"]["authors"] == ["[[sartre]]", "[[camus]]"]
+    assert result_b["existentialism"]["authors"] == ["[[sartre]]", "[[camus]]"]
+
+
+def test_author_periods_rename_merges_with_reverse_added_period_both_orders():
+    # author.periods (owner-side rename of period) and period.major_authors
+    # (loser-side reverse-merge, from a *different* period note) both write
+    # into author.periods. Neither may overwrite the other, regardless of
+    # which note is processed first.
+    notes_a = {
+        "sartre": {"type": "author", "period": ["[[early_20th_century]]"]},
+        "renaissance": {"type": "period", "major_authors": ["[[sartre]]"]},
+    }
+    notes_b = {
+        "renaissance": {"type": "period", "major_authors": ["[[sartre]]"]},
+        "sartre": {"type": "author", "period": ["[[early_20th_century]]"]},
+    }
+    result_a = migrate_notes(notes_a)
+    result_b = migrate_notes(notes_b)
+    assert result_a["sartre"]["periods"] == ["[[early_20th_century]]", "[[renaissance]]"]
+    assert result_b["sartre"]["periods"] == ["[[early_20th_century]]", "[[renaissance]]"]
+
+
+def test_movement_periods_rename_merges_with_reverse_added_period_both_orders():
+    # movement.periods (owner-side rename of period) and
+    # period.major_movements (loser-side reverse-merge, from a *different*
+    # period note) both write into movement.periods. Neither may overwrite
+    # the other, regardless of which note is processed first.
+    notes_a = {
+        "existentialism": {"type": "movement", "period": ["[[early_20th_century]]"]},
+        "renaissance": {"type": "period", "major_movements": ["[[existentialism]]"]},
+    }
+    notes_b = {
+        "renaissance": {"type": "period", "major_movements": ["[[existentialism]]"]},
+        "existentialism": {"type": "movement", "period": ["[[early_20th_century]]"]},
+    }
+    result_a = migrate_notes(notes_a)
+    result_b = migrate_notes(notes_b)
+    assert result_a["existentialism"]["periods"] == ["[[early_20th_century]]", "[[renaissance]]"]
+    assert result_b["existentialism"]["periods"] == ["[[early_20th_century]]", "[[renaissance]]"]
