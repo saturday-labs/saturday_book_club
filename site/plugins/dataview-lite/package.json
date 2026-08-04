@@ -1,0 +1,12 @@
+{
+  "name": "dataview-lite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "quartz": {
+    "name": "dataview-lite",
+    "displayName": "Dataview Lite",
+    "description": "Renders a small subset of Obsidian Dataview TABLE/LIST queries at build time.",
+    "category": ["transformer", "pageType"]
+  }
+}
