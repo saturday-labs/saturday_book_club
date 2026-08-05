@@ -45,18 +45,12 @@ His works focused on the search for an authentic, "vibrant" life, which is oppos
 
 ---
 
-## Related Authors
+## Movements
 
 ```dataview
-TABLE name AS "Author", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "author"
-AND (
-    contains(movements, this.file.movements)
-    OR contains(concepts, this.file.concepts)
-    OR period = this.file.period
-)
-SORT name ASC
+LIST FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(authors, this.file.name)
 ```
 
 ---

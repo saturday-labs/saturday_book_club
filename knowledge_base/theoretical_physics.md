@@ -60,8 +60,8 @@ Explain *why* this movement appeared at this particular time:
 ## Works Related to This Movement
 
 ```dataview
-TABLE title AS "Title", author AS "Author", year AS "Year"
-FROM "knowledge_base/books"
+TABLE title AS "Title", authors AS "Author", year AS "Year"
+FROM "knowledge_base"
 WHERE type = "book"
 AND contains(movements, this.file.name)
 SORT year ASC
