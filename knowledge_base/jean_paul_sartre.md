@@ -48,6 +48,26 @@ AND contains(authors, this.file.name)
 
 ---
 
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Concepts
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "concept"
+AND contains(authors, this.file.name)
+```
+
+---
+
 ## Book Club Notes
 
 Use this section to capture remarks from discussions:

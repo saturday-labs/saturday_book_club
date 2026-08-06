@@ -7,11 +7,11 @@ Notes vault for the Saturday Book Club.
 
 ## All notes
 
-- [[Existentialism]]
-- [[France]]
-- [[Germany]]
-- [[Humanism]]
-- [[Nausea]]
+- [[existentialism]]
+- [[france]]
+- [[germany]]
+- [[humanism]]
+- [[nausea]]
 - [[a_brief_history_of_time]]
 - [[arrow_of_time]]
 - [[big_bang]]

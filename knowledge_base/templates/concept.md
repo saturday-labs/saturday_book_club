@@ -63,3 +63,11 @@ WHERE type = "movement"
 AND contains(concepts, this.file.name)
 SORT title ASC
 ```
+
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(concepts, this.file.name)
+```

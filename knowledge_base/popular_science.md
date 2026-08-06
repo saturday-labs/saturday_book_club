@@ -52,8 +52,6 @@ Explain *why* this movement appeared at this particular time:
 
 ---
 
----
-
 ## Works Related to This Movement
 
 ```dataview

@@ -16,7 +16,7 @@ Use the following templates when creating new notes:
 ### `author.md`
 
 For philosophers and key thinkers.  
-Includes metadata, major works, movements, and Dataview tables.
+Includes metadata, movements, and Dataview tables.
 
 ### `movement.md`
 
@@ -36,14 +36,19 @@ Contains definitions, explanations, context, criticism, and links to authors/mov
 ### `period.md`
 
 For historical eras.  
-Includes timeframe, intellectual characteristics, authors, movements, and Dataview listings.
+Includes timeframe, intellectual characteristics, and Dataview listings (authors, movements, books, and concepts from this period).
+
+### `country.md`
+
+For countries associated with authors. Minimal frontmatter; surfaces authors via an inverse Dataview query.
 
 ## Relationship Schema
 
 **Rule: every relationship is stored on exactly one side.** The other side
 gets it through an inverse Dataview query (`WHERE type = "X" AND
-contains(field, this.file.name)`) — the same pattern `country.md` and
-`book.movements` → "Works Related to This Movement" already use correctly.
+contains(field, this.file.name)`) — the same inverse-query pattern
+demonstrated by `country.md`'s author listing and `movement.md`'s "Works
+Related to This Movement" section.
 No relationship is ever hand-maintained on both ends.
 
 | Relationship | Owner | Field (on owner) | Dropped from other side |
