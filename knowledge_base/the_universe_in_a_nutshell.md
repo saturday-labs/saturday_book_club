@@ -1,17 +1,17 @@
 ---
 title: the_universe_in_a_nutshell
-author:
-  - "[[stephen_hawking]]"
-year:
+year: null
 concepts: []
 movements: []
-period: []
 status: to-read
 type: book
 tags:
-  - book
+- book
 created: 09/12/2025 13:26:01
 updated: 09/12/2025 13:26:01
+authors:
+- '[[stephen_hawking]]'
+periods: []
 ---
 
 # the_universe_in_a_nutshell

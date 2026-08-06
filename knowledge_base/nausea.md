@@ -1,19 +1,19 @@
 ---
 title: Nausea
-author:
-  - "[[jean_paul_sartre]]"
-year: "1938"
+year: '1938'
 concepts: []
 movements:
-  - "[[existentialism]]"
-period:
-  - "[[early_20th_century]]"
+- '[[existentialism]]'
 status: done
 type: book
 tags:
-  - book
+- book
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
+authors:
+- '[[jean_paul_sartre]]'
+periods:
+- '[[early_20th_century]]'
 ---
 
 # Nausea

@@ -1,29 +1,19 @@
 ---
-name: Erich Fromm
-period: "[[middle_20th_century]]"
-country: "[[germany]]"
 nationality: German
-birth: "1900"
-death: "1980"
-concepts:
-  - "[[having_vs_being]]"
-  - "[[escape_from_freedom]]"
-  - "[[productive_love]]"
-  - "[[social_character]]"
-movements:
-  - "[[neo_freudianism]]"
-  - "[[critical_theory]]"
-  - "[[humanism]]"
-key_works:
-  - "[[to_have_or_to_be]]"
+birth: '1900'
+death: '1980'
 type: author
 tags:
-  - author
-  - humanism
-  - critical-theory
+- author
+- humanism
+- critical-theory
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
-rating: 1
+title: Erich Fromm
+periods:
+- '[[middle_20th_century]]'
+countries:
+- '[[germany]]'
 ---
 
 # Erich Fromm
@@ -55,18 +45,32 @@ His works focused on the search for an authentic, "vibrant" life, which is oppos
 
 ---
 
-## Related Authors
+## Movements
 
 ```dataview
-TABLE name AS "Author", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "author"
-AND (
-    contains(movements, this.file.movements)
-    OR contains(concepts, this.file.concepts)
-    OR period = this.file.period
-)
-SORT name ASC
+LIST FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Concepts
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "concept"
+AND contains(authors, this.file.name)
 ```
 
 ---

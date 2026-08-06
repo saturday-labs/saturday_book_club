@@ -1,9 +1,9 @@
 ---
-name: France
 tags:
-  - country
+- country
 creation date: 04/12/2025 19:21:30
 modification date: 04/12/2025 19:21:30
+title: France
 ---
 
 # France
@@ -13,9 +13,9 @@ modification date: 04/12/2025 19:21:30
 ## Related authors
 
 ```dataview
-TABLE name AS "Author", period AS "Period", key_works as "Books"
+TABLE title AS "Author", periods AS "Period"
 FROM "knowledge_base"
 WHERE type = "author"
-AND country.file.name = this.file.name
-SORT name ASC
+AND contains(countries, this.file.name)
+SORT title ASC
 ```

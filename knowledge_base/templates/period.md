@@ -1,11 +1,8 @@
 ---
-name: <% tp.file.title %>
+title: <% tp.file.title %>
 start: null
 end: null
-major_concepts: []
-major_movements: []
-major_authors: []
-type: period    
+type: period
 tags: ["period"]
 created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
 updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
@@ -58,7 +55,30 @@ How this era shaped later philosophy:
 
 ```dataview
 LIST FROM "knowledge_base"
-WHERE period = this.name
-and type = "movement"
-SORT file.name ASC
+WHERE type = "movement"
+AND contains(periods, this.file.name)
+```
+
+## Authors
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "author"
+AND contains(periods, this.file.name)
+```
+
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(periods, this.file.name)
+```
+
+## Concepts
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "concept"
+AND contains(periods, this.file.name)
 ```

@@ -1,16 +1,15 @@
 ---
-name: Humanism
-period: []
-origin: ""
+origin: ''
 concepts: []
-founders: []
-key_authors: []
-key_works: []
 type: movement
 tags:
-  - movement
+- movement
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
+authors:
+- '[[erich_fromm]]'
+title: Humanism
+periods: []
 ---
 
 # Humanism
@@ -53,23 +52,11 @@ Explain *why* this movement appeared at this particular time:
 
 ---
 
-## Related Concepts
-
-```dataview
-TABLE name AS "Movement", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "movement"
-AND contains(concepts, this.file.name)
-SORT name ASC
-```
-
----
-
 ## Works Related to This Movement
 
 ```dataview
-TABLE title AS "Title", author AS "Author", year AS "Year"
-FROM "knowledge_base/books"
+TABLE title AS "Title", authors AS "Author", year AS "Year"
+FROM "knowledge_base"
 WHERE type = "book"
 AND contains(movements, this.file.name)
 SORT year ASC

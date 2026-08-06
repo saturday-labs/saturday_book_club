@@ -1,22 +1,17 @@
 ---
-name: Jean-Paul Sartre
-period: "[[early_20th_century]]"
-country: "[[france]]"
 nationality: French
-birth: "1905"
-death: "1980"
-concepts:
-  - "[[existence_precedes_essence]]"
-movements:
-  - "[[existentialism]]"
-key_works:
-  - "[[nausea]]"
+birth: '1905'
+death: '1980'
 type: author
 tags:
-  - author
+- author
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
-rating: 1
+title: Jean-Paul Sartre
+periods:
+- '[[early_20th_century]]'
+countries:
+- '[[france]]'
 ---
 
 # Jean-Paul Sartre
@@ -43,18 +38,32 @@ Sartre was a leading existentialist philosopher whose work explored freedom, res
 
 ---
 
-## Related Authors
+## Movements
 
 ```dataview
-TABLE name AS "Author", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "author"
-AND (
-    contains(movements, this.file.movements)
-    OR contains(concepts, this.file.concepts)
-    OR period = this.file.period
-)
-SORT name ASC
+LIST FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Concepts
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "concept"
+AND contains(authors, this.file.name)
 ```
 
 ---

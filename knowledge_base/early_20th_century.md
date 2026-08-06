@@ -1,15 +1,12 @@
 ---
-name: early 20th century
-start:
-end:
-major_concepts: []
-major_movements: []
-major_authors: []
+start: null
+end: null
 type: period
 tags:
-  - period
+- period
 created: 04/12/2025 19:21:30
 updated: 04/12/2025 19:21:30
+title: early 20th century
 ---
 
 # early 20th century
@@ -59,7 +56,30 @@ How this era shaped later philosophy:
 
 ```dataview
 LIST FROM "knowledge_base"
-WHERE period = this.name
-and type = "movement"
-SORT file.name ASC
+WHERE type = "movement"
+AND contains(periods, this.file.name)
+```
+
+## Authors
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "author"
+AND contains(periods, this.file.name)
+```
+
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(periods, this.file.name)
+```
+
+## Concepts
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "concept"
+AND contains(periods, this.file.name)
 ```

@@ -1,18 +1,14 @@
 ---
-name: <% tp.file.title %>
-period: ""
-country: ""
+title: <% tp.file.title %>
+periods: []
+countries: []
 nationality: ""
 birth: null
 death: null
-concepts: []
-movements: []
-key_works: []
 type: author
 tags: ["author"]
 created: <% tp.file.creation_date("DD/MM/yyyy HH:mm:ss") %>
 updated: <% tp.file.last_modified_date("DD/MM/yyyy HH:mm:ss") %>
-rating: 1   # 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
 ---
 
 # <% tp.file.title %>
@@ -41,18 +37,32 @@ A concise summary of the thinker: style, interests, intellectual focus, and why 
 
 ---
 
-## Related Authors
+## Movements
 
 ```dataview
-TABLE name AS "Author", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "author"
-AND (
-    contains(movements, this.file.movements)
-    OR contains(concepts, this.file.concepts)
-    OR period = this.file.period
-)
-SORT name ASC
+LIST FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Concepts
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "concept"
+AND contains(authors, this.file.name)
 ```
 
 ---

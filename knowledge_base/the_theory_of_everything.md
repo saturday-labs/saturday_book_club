@@ -1,29 +1,29 @@
 ---
 title: The Theory of Everything
-author:
-  - "[[stephen_hawking]]"
-year: "2002"
+year: '2002'
 concepts:
-  - "[[big_bang]]"
-  - "[[black_holes]]"
-  - "[[singularity]]"
-  - "[[hawking_radiation]]"
-  - "[[general_relativity]]"
-  - "[[quantum_mechanics]]"
-  - "[[arrow_of_time]]"
-  - "[[quantum_gravity]]"
-  - "[[unified_theory_of_physics]]"
+- '[[big_bang]]'
+- '[[black_holes]]'
+- '[[singularity]]'
+- '[[hawking_radiation]]'
+- '[[general_relativity]]'
+- '[[quantum_mechanics]]'
+- '[[arrow_of_time]]'
+- '[[quantum_gravity]]'
+- '[[unified_theory_of_physics]]'
 movements:
-  - "[[cosmology]]"
-  - "[[popular_science]]"
-period:
-  - "[[late_20th_century]]"
+- '[[cosmology]]'
+- '[[popular_science]]'
 status: done
 type: book
 tags:
-  - book
+- book
 created: 09/12/2025 13:26:08
 updated: 08/04/2026 12:13:07
+authors:
+- '[[stephen_hawking]]'
+periods:
+- '[[late_20th_century]]'
 ---
 
 # The Theory of Everything

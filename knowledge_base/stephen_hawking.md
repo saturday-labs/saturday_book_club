@@ -1,37 +1,20 @@
 ---
-name: Stephen Hawking
-period: "[[late_20th_century]]"
-country: "[[united_kingdom]]"
 nationality: British
-birth: "1942"
-death: "2018"
-concepts: 
-  - "[[black_holes]]"
-  - "[[hawking_radiation]]"
-  - "[[general_relativity]]"
-  - "[[quantum_mechanics]]"
-  - "[[arrow_of_time]]"
-  - "[[quantum_gravity]]"
-  - "[[singularity]]"
-  - "[[big_bang]]"
-  - "[[unified_theory_of_physics]]"
-movements:
-  - "[[theoretical_physics]]"
-  - "[[cosmology]]"
-  - "[[popular_science]]"
-key_works: 
-  - "[[a_brief_history_of_time]]"
-  - "[[the_universe_in_a_nutshell]]"
-  - "[[the_theory_of_everything]]"
+birth: '1942'
+death: '2018'
 type: author
 tags:
-  - author
-  - physicist
-  - cosmologist
-  - science_communicator
+- author
+- physicist
+- cosmologist
+- science_communicator
 created: 09/12/2025 12:54:45
 updated: 09/12/2025 12:54:45
-rating: 1
+title: Stephen Hawking
+periods:
+- '[[late_20th_century]]'
+countries:
+- '[[united_kingdom]]'
 ---
 
 # Stephen Hawking
@@ -67,18 +50,32 @@ For readers and thinkers, he is an example of how science can intersect with phi
 
 ---
 
-## Related Authors
+## Movements
 
 ```dataview
-TABLE name AS "Author", period AS "Period"
-FROM "knowledge_base"
-WHERE type = "author"
-AND (
-    contains(movements, this.file.movements)
-    OR contains(concepts, this.file.concepts)
-    OR period = this.file.period
-)
-SORT name ASC
+LIST FROM "knowledge_base"
+WHERE type = "movement"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Books
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "book"
+AND contains(authors, this.file.name)
+```
+
+---
+
+## Concepts
+
+```dataview
+LIST FROM "knowledge_base"
+WHERE type = "concept"
+AND contains(authors, this.file.name)
 ```
 
 ---

@@ -1,10 +1,10 @@
 ---
-name: United Kingdom
 type: country
 tags:
-  - country
+- country
 created: 09/12/2025 13:12:59
 updated: 09/12/2025 13:12:59
+title: United Kingdom
 ---
 
 # united_kingdom
@@ -12,9 +12,9 @@ updated: 09/12/2025 13:12:59
 ---
 
 ```dataview
-TABLE name AS "Author", period AS "Period", key_works as "Books"
+TABLE title AS "Author", periods AS "Period"
 FROM "knowledge_base"
 WHERE type = "author"
-AND country.file.name = this.file.name
-SORT name ASC
+AND contains(countries, this.file.name)
+SORT title ASC
 ```
