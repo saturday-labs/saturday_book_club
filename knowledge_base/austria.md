@@ -2,16 +2,14 @@
 type: country
 tags:
 - country
-created: 04/12/2025 19:21:30
-updated: 04/12/2025 19:21:30
-title: France
+created: 09/12/2025 13:12:59
+updated: 09/12/2025 13:12:59
+title: Austria
 ---
 
-# France
+# austria
 
 ---
-
-## Related authors
 
 ```dataview
 TABLE title AS "Author", periods AS "Period"
